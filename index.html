@@ -1,0 +1,232 @@
+<!DOCTYPE html>  
+
+<html lang="es">  
+
+    <head>  
+
+        <meta charset="UTF-8">  
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <title>Explorando Planos y Ángulos en Fotografía</title>  
+
+        <style> 
+
+            body { 
+                background-color: lightgray; 
+                color: navy; 
+            } 
+            
+            footer{
+                padding: 20px;
+            }
+
+            section{
+                padding: 20px;
+            }
+
+            table{
+                width: 100%;
+                border: #b2b2b2 1px solid;
+            }
+
+            th, td {
+               text-align: left;
+               border: #b2b2b2 1px solid;
+               color: black;
+            }
+
+            div p {
+                color: rgb(3, 3, 38);
+                margin-bottom: 50px;
+            }
+
+            article div p {
+                color: rgb(3, 3, 38);
+                margin-bottom: 0px;
+            }
+
+            .col1{
+                width: 20%;
+            }
+
+            .col2{
+                width: 70%;
+            }
+
+            .col3{
+                width: 10%;
+            }
+            
+
+            .texto-grande { 
+                font-size: 20px; /* Modificar tamaño de texto con clase */ 
+            } 
+
+            .titulo-personal { 
+                margin-top: 30px;
+            } 
+
+            article {
+                display: flex;
+                margin-bottom: 20px;
+                font-size: large;
+             }
+
+            .img-info{
+                flex: 1;
+                padding: 20px;
+                margin-right: 20px;
+            }
+
+            .txt-info {
+                flex: 2;
+                padding: 20px;
+             }
+
+             .nota{
+                font-weight: bolder;
+             }
+
+        </style> 
+
+    </head>  
+
+    <body>  
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="camara.webp" alt="Logo" width="30" height="30" class="d-inline-block align-text-top"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Temas del Curso
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Planos Fotograficos</a></li>
+                      <li><a class="dropdown-item" href="#">Angulos de Camara</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre Mi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" >Talleres</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Busca tu tema" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+
+        <br><br>
+
+       
+
+        <section>
+            <div>
+                <p class="nota">  
+                    Importante: Utilice el bootstrap en la barra de navegacion, padding y margenes de algunos textos y titulos, y en la informacion personal en forma de card
+                </p>  
+            </div>
+            <br>
+            <h1>Explorando Planos y Ángulos en Fotografía</h1>  
+
+            <div>
+                <p>  
+                    Bienvenido a mi sitio web dedicado a la exploración de los diferentes planos y ángulos en la fotografía.  
+                    Aquí aprenderás cómo los fotógrafos utilizan diversas técnicas para capturar imágenes únicas y expresivas.  
+                    Desde el plano general hasta el primerísimo primer plano, y desde el ángulo picado hasta el nadir,  
+                    cada técnica tiene su propio impacto visual y emocional.  
+                </p>  
+            </div>
+        
+            
+                <h2>Temas del Sitio Web</h2> 
+
+                <table>
+                    <tr>
+                        <th class="col1">Tema</th>
+                        <th class="col2">Descripcion</th>
+                        <th class="col3">link</th>
+                    </tr>
+                    <tr>
+                        <td>Introducción a los Planos Fotográficos</td>
+                        <td><p>Un plano queda definido por la cantidad de “objeto” principal encuadrado en la imagen o dicho de otro modo, la cantidad de área circundante recoge el encuadre</p></td>
+                        <td><a href="https://www.hofmann.es/blog/fotografia/tipos-de-planos-fotograficos-y-cuando-utilizarlos" target="_blank">Ver mas</a></td>
+                    </tr>
+                    <tr>
+                        <td>Planos Generales</td>
+                        <td><p>El plano general fotográfico es donde el sujeto ocupa claramente el centro de atención de la imagen, si bien el entorno ofrece también una parte importante de la información del conjunto</p></td>
+                        <td><a href="https://www.hofmann.es/blog/fotografia/tipos-de-planos-fotograficos-y-cuando-utilizarlos" target="_blank">Ver mas</a></td>
+                    </tr>
+                    <tr>
+                        <td>Planos Medios</td>
+                        <td><p>Utilizado mayormente en retratos y moda, es un plano que aporta un sentido de mayor intimidad, ya que se está más cerca del sujeto</p></td>
+                        <td><a href="https://toomanyflash.com/tipos-de-planos-en-fotografia/#:~:text=Plano%20medio%20fotograf%C3%ADa,al%20sujeto%20desde%20la%20cintura." target="_blank">Ver mas</a></td>
+                    </tr>
+                    <tr>
+                        <td>Primer Plano</td>
+                        <td><p>Los primeros planos son esencialmente retratos. Se centran en el rostro y las expresiones del mismo. El clásico primer plano abarca desde la cabeza hasta los hombros y el nivel de proximidad al modelo es alto</p></td>
+                        <td><a href="https://toomanyflash.com/tipos-de-planos-en-fotografia/#:~:text=Primer%20plano%20en%20fotograf%C3%ADa,la%20expresi%C3%B3n%20y%20actitud%20facial." target="_blank">Ver mas</a></td>
+                    </tr>
+                    <tr>
+                        <td>Ángulos de Cámara</td>
+                        <td><p>Existen diferentes ángulos de cámara que tienen una intención psicológica con respecto a la persona u objeto filmado</p></td>
+                        <td><a href="https://aprendercine.com/tipos-angulos-de-camara-cine/" target="_blank">Ver mas</a></td>
+                    </tr>
+                    <tr>
+                        <td>Ángulo Picado y Contrapicado</td>
+                        <td><p>El ángulo picado se consigue situando la cámara por encima del sujeto, el contrapicado lo logramos situando la cámara en una posición inferior al objeto a fotografiar.</p></td>
+                        <td><a href="https://www.dzoom.org.es/los-5-angulos-de-disparo-clave-en-fotografia/#:~:text=%C3%81ngulo%20Contrapicado,inferior%20al%20objeto%20a%20fotografiar." target="_blank">Ver mas</a></td>
+                    </tr>
+                    <tr>
+                        <td>Ángulo Cenital y Nadir</td>
+                        <td><p>El angulo cenital y el angulo nadir son los extremos del ángulo picado y el ángulo contrapicado. Vamos a ver algunos ejemplos memorables.</p></td>
+                        <td><a href="https://aprendercine.com/plano-cenital-y-plano-nadir-de-arriba-a-abajo/" target="_blank">Ver mas</a></td>
+                    </tr>
+                    <tr>
+                        <td>Ejemplos y Aplicaciones Prácticas</td>
+                        <td><p>Aqui podras encontrar una guia rapida y ejemplos practicos sobre planos y angulos fotograficos</p></td>
+                        <td><a href="Ejemplos de planos y angulos.pdf" target="_blank">Ver mas</a></td>
+                    </tr>
+                </table>
+            
+    
+        <br><br>
+    
+            <h2 id="titulo-personal">Información Personal</h2>  
+    
+            <div class="card mb-3 mt-4" style="max-width: 740px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="gabrielandres.jpeg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">He cambiado mis datos personales ya que van a estar expuesto en la red</h5>
+                        <p class="card-text">Nombres: [Gabriel Andres] <br> Apellidos: [Angulo Angulo] <br> Contacto: [91009282736] <br> Correo: [gabrielaa@midominio.com] <br> Direccion: [Av Siempre viva No 2 - 60 Oficina 501] <br>Ciudad: [Brooklyn - NYC -EEUU] <br> Institución: [LaloLoles]<br></p>  
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+
+    </body>  
+
+    <footer><p>Sitio elaborado por Gabriel Andres Angulo - 2024</p></footer>
+
+</html> 
